@@ -1,0 +1,99 @@
+/* color method */
+
+
+.color-by-name{
+    color: blue;
+    background-color: lightcoral;
+}
+.color-by-rgb{
+    color: rgb(245, 178, 180);
+    background-color: rgb(120, 80, 190);
+}
+
+.color-by-hsl{
+    color: hsl(8, 50%, 90%);
+    background-color: hsl(20, 70%, 10%);
+}
+
+.color-by-hex{
+    color: #affbcc;
+    background-color: #b4a78f;
+}
+.opacity_as{
+    color: rgba(50, 170, 150, 0.5);
+    background-color: hsla(51, 96%, 51%, 0.5);
+}
+
+/* border style */
+.btn{
+    color: rgb(241, 213, 50);
+    background-color: #2996e4;
+    border: 3px double black;
+    border-radius: 20px;
+    
+}
+.btn1{
+    background-color: #2996e4;
+    color: rgb(241, 213, 50);
+    border: 3px dashed #121212;
+}
+.btn2{
+    background-color: #b67c11;
+    color: hsl(125, 76%, 20%);
+    border: 4px hidden #232323 ;
+}
+.btn3{
+    background-color: #2996e4;
+    color: #dfb568;
+    border:5px groove hsl(263, 66%, 35%);
+}
+.btn4{
+    border: 5px ridge #b67c11;
+    outline: 3px solid green;
+    outline-offset: 2px;
+}
+
+/* opacity */
+
+.opacity{
+    border:3px solid #121212;
+    background-color: rgba(255, 0, 0, 0.1);
+    height: 200px;
+    width: 200px;
+    
+}
+.o1{
+    background-color: rgba(255,0, 0, 0.2);
+
+}
+.o2{
+    background-color: rgba(255, 0, 0, 0.3);
+
+}
+.o3{
+    background-color: rgba(255, 0, 0, 0.4);
+
+}
+.o4{
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
+.o5{
+    background-color: rgba(255, 0, 0, 0.6);
+
+}
+.o6{
+    background-color: rgba(255, 0,0, 0.7);
+
+}
+.o7{
+    background-color: rgba(255, 0, 0, 0.8);
+
+}
+.o8{
+    background-color: rgba(255, 0, 0, 0.9);
+
+}
+.o9{
+    background-color: rgba(255, 0, 0, 1);
+}

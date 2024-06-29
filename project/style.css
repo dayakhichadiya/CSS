@@ -22,6 +22,9 @@
 }
 .logo{
     background-image: url('assets/logo.png');
+    width: 20%;
+    height: 50vh;
+    background-repeat: no-repeat;
 }
 .nav{
     position: relative;
@@ -164,36 +167,92 @@ a:hover{
 /* production part */
 
 .production{
-    border: 2px solid black;
     padding-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 40px;
-    width: 90%;
+    padding-bottom: 100px;
 }
 
 .container{
-   max-width: 700px;
-   width: 100%;
-   padding-right: 15px;
-   padding-left: 15px;
-   margin-left: auto;
-   margin-right: auto;
-
+   margin:auto;
+   max-width: 1200px;
+   padding: 0px 40px;
 }
 .container_box{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+   width: 100%;
 }
 .production_heading{
-    margin-bottom: 80px;
-    font-size: 50px;
-    display: inline-block;
-    line-height: 1.2;
-    font-weight: 500px;
+    text-align: center;
+}
+.production_heading h4{
     font-family: 'Oswald', sans-serif;
+    font-weight: 800px;
+    font-size: 60px;
+    display: inline-block;
+    margin-bottom: 80px;
+    font-variant: small-caps;
+    line-height: 1.2;
+    letter-spacing: 0.1px;
 
+}
+.production_heading h4::before{
+    content: "";
+    color: #FFBF00;
+    display: inline-block;
+    border-bottom: 4px solid #FFBF00 ;
+    height: 6px;
+    width: 80px;
+    margin-right: 16px;
+    vertical-align: super;
+}
+.production_heading h4::after{
+    content: "";
+    color: #FFBF00;
+    border-bottom: 4px solid #FFBF00;
+    display: inline-block;
+    height: 6px;
+    width: 80px;
+    margin-left: 16px;
+    vertical-align: super;
+}
+.production_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* production part ended */
+
+
+.row{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 15px; */
+}
+.row div{
+    text-align: center;
+    /* position: relative; */
+    width: 25%;
+    padding: 15px;
+}
+.row div:hover h4{
+    color: #FFBF00;
+}
+.row div h4{
+   font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+   margin-bottom: 12px;
+   font-weight: 600;
+   line-height: 1.2;
+   font-size: 1.4rem;   
+   margin-bottom: 12px; 
+}
+.row div p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 25px;
+
+}
+.row div:hover i{
+    transform: translateY(-15px);
+    transition: 0.5s ease;
 }
